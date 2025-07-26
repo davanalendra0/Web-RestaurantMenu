@@ -1,0 +1,61 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+
+/* Bagian kiri */
+.logo-section {
+  background-color: #AD4C4C;
+  color: #FDEEDC;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: 200px;
+}
+
+.logo-section h1 {
+  font-size: 20px;
+}
+
+/* Bagian kanan */
+.nav-section {
+  background-color: #FDEEDC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.search-icon i {
+  font-size: 18px;
+  color: #1A1A1A;
+  cursor: pointer;
+}
