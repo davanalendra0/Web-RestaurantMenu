@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Umami</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Japanese Menu Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/jpg" href="asset/img/icon.png"/>
 <body>
-
+  <!-- Header -->
   <header class="header">
-    <div class="logo-section">
-      <h1>Umami</h1>
-    </div>
-    <nav class="nav-section">
+    <div class="logo">Umami</div>
+    <nav class="navbar">
       <ul class="nav-links">
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">FOOD</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
-      <div class="search-icon">
-        <i class="fas fa-search"></i>
-      </div>
     </nav>
   </header>
 
+  <!-- Pop-up Info Menu -->
+  <div class="popup-overlay" id="popup">
+    <div class="popup-content">
+      <span class="close-btn" id="closePopup">&times;</span>
+      <img src="" alt="Menu Image" id="popupImage" />
+      <h2 id="popupTitle">Menu Name</h2>
+      <p id="popupDesc">Description goes here...</p>
+      <p id="popupPrice">Price: -</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
