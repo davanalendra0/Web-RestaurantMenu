@@ -10,26 +10,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/jpg" href="asset/img/icon.png"/>
 <body>
+  
   <!-- Header -->
   <header class="header">
-    <div class="logo">Umami</div>
-    <nav class="navbar">
-      <ul class="nav-links">
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">UMAMI</h1>
+
+      <nav class="nav">
+        <a href="#menu">MENU</a>
+        <a href="#food">FOOD</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT US</a>
+      </nav>
+
+      <button class="search-btn">
+        <span class="search-icon">🔍</span>
+      </button>
+    </div>
   </header>
 
-  <!-- Pop-up Info Menu -->
-  <div class="popup-overlay" id="popup">
-    <div class="popup-content">
-      <span class="close-btn" id="closePopup">&times;</span>
-      <img src="" alt="Menu Image" id="popupImage" />
-      <h2 id="popupTitle">Menu Name</h2>
-      <p id="popupDesc">Description goes here...</p>
-      <p id="popupPrice">Price: -</p>
 <!-- Appetizer:
 Gyoza: 3pcs 25k, 5pcs 35k
 Takoyaki: 3pcs 22k, 5pcs 30k
@@ -49,9 +48,6 @@ Korokke: per pcs 18k
 Drinks:
 Ocha: 8k 
 Soft Drinks: 15k -->
-
-    </div>
-  </div>
 
   <script src="script.js"></script>
 </body>
