@@ -700,12 +700,14 @@
 
 /* Footer Left */
 .footer-logo {
+    font-family: "Playfair Display", serif;
     font-size: 2.7rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .footer-desc {
+    font-family: "Plus Jakarta Sans", sans-serif;
     width: 330px;
     opacity: 0.85;
     line-height: 1.5;
@@ -724,6 +726,7 @@
 }
 
 .footer-col a {
+    font-family: "Plus Jakarta Sans", sans-serif;
     display: block;
     color: white;
     opacity: 0.7;
@@ -772,6 +775,7 @@
 }
 
 .footer-bottom p {
+    font-family: "Plus Jakarta Sans", sans-serif;
     opacity: 0.7;
     font-size: 0.9rem;
 }
