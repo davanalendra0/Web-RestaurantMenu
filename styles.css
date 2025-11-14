@@ -193,6 +193,7 @@
     line-height: 1.1;
     color: var(--dark);
     margin-bottom: 25px;
+    cursor: default;
 }
 
 .hero-desc {
@@ -201,6 +202,7 @@
     color: #444;
     max-width: 550px;
     margin-bottom: 40px;
+    cursor: default;
 }
 
 /* Buttons */
@@ -261,6 +263,7 @@
     display: flex;
     gap: 60px;
     align-items: flex-start;
+    cursor: default;
 }
 
 .stat-box h2 {
