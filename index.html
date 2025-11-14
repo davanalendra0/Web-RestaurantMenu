@@ -112,37 +112,183 @@
     </div>
   </section>
 
-  <section class="menu-section">
-    <h2 class="menu-title">Our Menu</h2>
+<section class="menu-section" id="menu">
+    <div class="menu-container">
 
-    <div class="menu-filter">
-      <button class="filter-btn active">All</button>
-      <button class="filter-btn">Appetizer</button>
-      <button class="filter-btn">Main Course</button>
-      <button class="filter-btn">Salad</button>
-      <button class="filter-btn">Snacks</button>
-      <button class="filter-btn">Drinks</button>
+        <!-- Title -->
+        <h2 class="menu-title">Our Menu</h2>
+
+        <!-- Filters -->
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="appetizer">Appetizer</button>
+            <button class="filter-btn" data-filter="main">Main Course</button>
+            <button class="filter-btn" data-filter="salad">Salad</button>
+            <button class="filter-btn" data-filter="snacks">Snacks</button>
+            <button class="filter-btn" data-filter="drink">Drinks</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="menu-grid">
+
+            <!-- Gyoza -->
+            <div class="menu-card" data-category="appetizer">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1738681336104-608b4e7dc3b0" alt="">
+                </div>
+
+                <h3 class="menu-name">Gyoza</h3>
+
+                <div class="menu-options">
+                    <p>3 pcs <span>25k</span></p>
+                    <p>5 pcs <span>35k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Takoyaki -->
+            <div class="menu-card" data-category="appetizer">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1652752731860-ef0cf518f13a" alt="">
+                </div>
+
+                <h3 class="menu-name">Takoyaki</h3>
+
+                <div class="menu-options">
+                    <p>3 pcs <span>22k</span></p>
+                    <p>5 pcs <span>30k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Ramen -->
+            <div class="menu-card" data-category="main">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1526318896980-cf78c088247c" alt="">
+                </div>
+
+                <h3 class="menu-name">Ramen</h3>
+
+                <div class="menu-options">
+                    <p>Small <span>40k</span></p>
+                    <p>Regular <span>55k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Donburi -->
+            <div class="menu-card" data-category="main">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1700323449261-5332ce054718" alt="">
+                </div>
+
+                <h3 class="menu-name">Donburi</h3>
+
+                <div class="menu-options">
+                    <p>Small <span>38k</span></p>
+                    <p>Regular <span>50k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Wakame Salad -->
+            <div class="menu-card" data-category="salad">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1561466273-c13f88329aa0" alt="">
+                </div>
+
+                <h3 class="menu-name">Wakame Salad</h3>
+
+                <div class="menu-options">
+                    <p>Small <span>20k</span></p>
+                    <p>Regular <span>30k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Tofu Salad -->
+            <div class="menu-card" data-category="salad">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="">
+                </div>
+
+                <h3 class="menu-name">Tofu Salad</h3>
+
+                <div class="menu-options">
+                    <p>Small <span>25k</span></p>
+                    <p>Regular <span>35k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Tamagoyaki -->
+            <div class="menu-card" data-category="snacks">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1606501129419-38058bd81ddc" alt="">
+                </div>
+
+                <h3 class="menu-name">Tamagoyaki</h3>
+
+                <div class="menu-options">
+                    <p>Per slice <span>15k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Korokke -->
+            <div class="menu-card" data-category="snacks">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1683694062041-cc62c5390b13" alt="">
+                </div>
+
+                <h3 class="menu-name">Korokke</h3>
+
+                <div class="menu-options">
+                    <p>Per pcs <span>18k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Drinks -->
+            <div class="menu-card" data-category="drink">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1606377695906-236fdfcef767" alt="">
+                </div>
+
+                <h3 class="menu-name">Ocha</h3>
+
+                <div class="menu-options">
+                    <p>Glass <span>8k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="menu-card" data-category="drink">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1604259596747-2377448d916d" alt="">
+                </div>
+
+                <h3 class="menu-name">Soft Drinks</h3>
+
+                <div class="menu-options">
+                    <p>Glass <span>15k</span></p>
+                </div>
+
+                <button class="order-btn">Order Now</button>
+            </div>
+
+        </div>
     </div>
-  </section>
-<!-- Appetizer:
-Gyoza: 3pcs 25k, 5pcs 35k
-Takoyaki: 3pcs 22k, 5pcs 30k
-
-Main Course:
-Ramen: small 40k, regular 55k
-Donburi: small 38k, regular 50k
-
-Salad:
-Wakame Salad: small 20k, regular 30k
-Tofu salad: small 25k, regular 35k
-
-Snacks:
-Tamagoyaki: per slice 15k
-Korokke: per pcs 18k
-
-Drinks:
-Ocha: 8k 
-Soft Drinks: 15k -->
+</section>
 
   <script src="script.js"></script>
 </body>
