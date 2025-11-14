@@ -45,6 +45,7 @@
     font-weight: 900;
     letter-spacing: 3px;
     text-transform: uppercase;
+    cursor: default;
 }
 
 /* Navigation */
@@ -102,7 +103,8 @@
 }
 
 .search-btn:hover {
-    background: rgba(255,255,255,0.05);
+    background: var(--text);
+    background-color: var(--text);
 }
 
 .search-btn svg {
@@ -120,5 +122,5 @@
 }
 
 .search-btn:hover .search-icon-stroke {
-    stroke: var(--accent);
+    stroke: var(--bg);
 }
