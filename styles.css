@@ -305,7 +305,6 @@
     background: linear-gradient(to right, #fcf7ef 0%, #faefe3 100%);
 }
 
-/* Container */
 .about-container {
     max-width: var(--container-w);
     margin: auto;
@@ -316,7 +315,7 @@
     padding: 0 20px;
 }
 
-/* Left Side */
+/* About - Left Side */
 .about-left {
     flex: 1.1;
 }
