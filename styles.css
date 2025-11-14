@@ -1,0 +1,124 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Variabel */
+:root {
+    --bg: #8E1B17;
+    --text: #F7E7CE;
+    --accent: #FFD66B;
+    --container-w: 1300px;
+    --header-h: 80px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--bg);
+    height: var(--header-h);
+    display: flex;
+    align-items: center;
+}
+
+/* Layout container */
+.container {
+    width: 100%;
+    max-width: var(--container-w);
+    margin: 0 auto;
+    padding: 0 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    color: var(--text);
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+.nav a {
+    position: relative;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 0;
+    transition: 0.25s ease;
+}
+
+/* Underline hover */
+.nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0%;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--accent);
+    transition: width 250ms cubic-bezier(.25,.8,.25,1);
+}
+
+/* Hover effect */
+.nav a:hover {
+    color: var(--accent);
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+
+/* Search button */
+.search-btn {
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s ease;
+}
+
+.search-btn:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.search-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.search-icon-stroke {
+    stroke: var(--text);
+    stroke-width: 2;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.2s ease;
+}
+
+.search-btn:hover .search-icon-stroke {
+    stroke: var(--accent);
+}
