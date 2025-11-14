@@ -383,8 +383,7 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* ----- MENU SECTION ----- */
-
+/* Filter Menu Section */
 .menu-section {
     width: 100%;
     padding: 60px 0;
@@ -437,7 +436,7 @@
     transition: width 0.3s ease;
 }
 
-/* Hover animasi (sesuai video) */
+/* Hover animasi */
 .filter-btn:hover {
     transform: translateY(-4px);
     box-shadow: 0px 5px 15px rgba(0,0,0,0.12);
@@ -456,3 +455,4 @@
 .filter-btn.active::after {
     width: 50%;
 }
+
