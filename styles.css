@@ -145,24 +145,12 @@
     gap: 80px;
 }
 
-/* --- Japanese Text --- */
-.bg-jp {
-    position: absolute;
-    top: -40px;
-    left: -120px;
-    font-size: 420px;
-    font-weight: 900;
-    color: rgba(255,255,255,0.08);
-    z-index: -1;
-    user-select: none;
-    pointer-events: none;
-}
-
 /* Image Left */
 .hero-image {
     position: relative;
     margin-left: 20px;
     flex-shrink: 0;
+    z-index: 5;
 }
 
 .hero-image img {
@@ -184,6 +172,8 @@
     flex: 1;
     color: white;
     transform: translateY(20px);
+    z-index: 5;
+    position: relative;
 }
 
 .hero-title {
