@@ -17,7 +17,7 @@
 <p>Proyek ini dibangun dengan menggunakan teknologi dasar web:</p>
 <ul>
 <li>HTML5: Untuk struktur halaman menu, konten, dan formulir.</li>
-<li>CSS3: Untuk styling, tata letak fleksibel, dan penerapan desain modern serta responsif.</li>
+<li>CSS3: Untuk styling, tata letak fleksibel, dan penerapan desain modern.</li>
 <li>Deployment: Platform hosting yang digunakan adalah Vercel untuk penerapan cepat dan integrasi Git.</li>
 </ul>
 <br>
